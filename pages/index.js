@@ -77,7 +77,7 @@ export async function getStaticProps() {
         time: 0,
         date: null
       }],
-      image: '/../public/deandre.png',
+      image: '/public/deandre.png',
       stats: {
         GP: 54,
         MIN: 10.9,
@@ -96,7 +96,7 @@ export async function getStaticProps() {
         time: 0,
         date: null
       }],
-      image: '/../public/bismack.png',
+      image: '/public/bismack.png',
       stats: {
         GP: 36,
         MIN: 8.9,
@@ -115,7 +115,7 @@ export async function getStaticProps() {
         time: 0,
         date: null
       }],
-      image: '/../public/devin.png',
+      image: '/public/devin.png',
       stats: {
         GP: 24,
         MIN: 14.9,
@@ -134,7 +134,7 @@ export async function getStaticProps() {
         time: 0,
         date: null
       }],
-      image: '/../public/mikal.png',
+      image: '/public/mikal.png',
       stats: {
         GP: 60,
         MIN: 12.3,
@@ -153,7 +153,7 @@ export async function getStaticProps() {
         time: 0,
         date: null
       }],
-      image: '/../public/torrey.png',
+      image: '/public/torrey.png',
       stats: {
         GP: 54,
         MIN: 10.9,
@@ -172,7 +172,7 @@ export async function getStaticProps() {
         time: 0,
         date: null
       }],
-      image: '/../public/jae.png',
+      image: '/public/jae.png',
       stats: {
         GP: 54,
         MIN: 10.9,
@@ -191,7 +191,7 @@ export async function getStaticProps() {
         time: 0,
         date: null
       }],
-      image: '/../public/cameron.png',
+      image: '/public/cameron.png',
       stats: {
         GP: 54,
         MIN: 10.9,
@@ -210,7 +210,7 @@ export async function getStaticProps() {
         time: 0,
         date: null
       }],
-      image: '/../public/jock.png',
+      image: '/public/jock.png',
       stats: {
         GP: 54,
         MIN: 10.9,
@@ -228,49 +228,49 @@ export async function getStaticProps() {
         name: 'Lonzo Ball',
         number: 2,
         position: 'PG',
-        image: '/../public/lonzo.png',
+        image: '/public/lonzo.png',
       },
       {
         name: 'Tony Bradley',
         number: 13,
         position: 'C',
-        image: '/../public/tony.png',
+        image: '/public/tony.png',
       },
       {
         name: 'Alex Caruso',
         number: 6,
         position: 'SG',
-        image: '/../public/alex.png',
+        image: '/public/alex.png',
       },
       {
         name: 'Tyler Cook',
         number: 25,
         position: 'F',
-        image: '/../public/tyler.png',
+        image: '/public/tyler.png',
       },
       {
         name: 'DeMar DeRozan',
         number: 11,
         position: 'SF',
-        image: '/../public/demar.png',
+        image: '/public/demar.png',
       },
       {
         name: 'Ayo Dosunmu',
         number: 12,
         position: 'SG',
-        image: '/../public/ayo.png',
+        image: '/public/ayo.png',
       },
       {
         name: 'Andre Drummond',
         number: null,
         position: 'C',
-        image: '/../public/andre.png',
+        image: '/public/andre.png',
       },
       {
         name: 'Javonte Green',
         number: 24,
         position: 'SF',
-        image: '/../public/javonte.png',
+        image: '/public/javonte.png',
       },
 
     ]
