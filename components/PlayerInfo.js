@@ -96,11 +96,11 @@ const PlayerInfo = ({ selectedPlayer, running, playerTime }) => {
         <div className='h-[30%] w-full justify-evenly border-t-[1px] border-black flex items-center'>
             <div className='flex flex-col col-span-1 items-center'>
                 <h1 className='text-md font-semibold'>Total Minutes (Selected Players)</h1>
-                <p class>Total time here</p>
+                <p >Total time here</p>
             </div>
             <div className='flex flex-col col-span-1 items-center px-28'>
                 <h1 className='text-md font-semibold'>Stats (Selected Players)</h1>
-                <p class>Combined Stats here</p>
+                <p >Combined Stats here</p>
             </div>
         </div>
     </div>
