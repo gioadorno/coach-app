@@ -8,7 +8,7 @@ const PlayerInfo = ({ selectedPlayer, running, playerTime }) => {
     <div className='flex flex-col border-b-2 border-white h-[300px] w-full bg-purple-600 bg-opacity-60'>
         <div className='flex h-[100%]'>
             <div className='flex items-center relative justify-center p-6 h-full w-[400px]'>
-                <Image src={selectedPlayer?.image} layout='fill'  />
+                <img src={selectedPlayer?.image} layout='fill'  />
             </div>
             <div className='flex w-full flex-grow'>
                 <div className='flex-col pt-8 '>
