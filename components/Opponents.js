@@ -9,7 +9,7 @@ const Opponents = ({ opponentTeam, awayTeam }) => {
             Chicago Bulls
         </div>
             {awayTeam.map(player =>
-            <div key={olayer.name} className={`border-b-2 border-white h-[200px] flex w-full p-6`}>
+            <div key={player.name} className={`border-b-2 border-white h-[200px] flex w-full p-6`}>
                 <div className='flex flex-grow justify-end items-center'>
                     <div className='flex items-center'>
                         <div>
