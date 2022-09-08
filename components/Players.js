@@ -14,7 +14,7 @@ const Players = ({ setSelectedPlayer, data, selectedPlayer, inGame, setInGame, s
         {data.map(player => (
             <div onClick={() => setSelectedPlayer(player)} className={`border-b-2 border-white h-[200px] flex w-full p-6 ${player.status === 'Injured' && 'bg-yellow-600'} ${player.status === 'Suspended' && 'bg-red-400 group-hover:opacity-90 transform ease-in duration-200'} ${player.name === selectedPlayer.name && 'bg-green-700 group-hover:opacity-90 transform ease-in duration-200'}`} key={player.name}>
                 <div className='h-full relative w-[150px] flex flex-col group-hover:opacity-90 items-center'>
-                    <img width={'100%'} height='100%' src={player.image} alt={`${player.name} image`} />
+                    <Image width={'100%'} height='100%' src={player.image} alt={`${player.name} image`} />
                     <h1 className='text-white font-semibold text-center pt-2 text-lg'>
                         {player.name}
                     </h1>
